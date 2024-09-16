@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+p{
+    background-color: pink;
+}
+// propriedade: display: flex;
+// coloca todos os filhos um ao lado do outro
+//justfy-content - alinhar no eixo x largura
+.container {
+   display: flex;
+   //ativa
+   justify-content: center;
+   //alinha ao centro - largura
+    border: solid rgb(231, 62, 166);
+}
+
+.item {
+background-color: azure;
+border: solid;
+}
+
+section{
+    margin: 10px 0;
+}
+
+.container1{
+    border: solid palevioletred;
+    display: flex;
+    justify-content:center; // alinhar ao final
+}
+
+.container2{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: space-around; 
+    //space around- espaço ao redor
+}
+
+.container3{
+border: solid palevioletred;
+display: flex;
+justify-content: space-between;
+//space-between - espaço entre a tag
+}
+
+.container4{
+    border: solid palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    //espaço igual ao redor das tags
+}
